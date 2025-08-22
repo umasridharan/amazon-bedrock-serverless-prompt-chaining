@@ -20,12 +20,12 @@ import os
 
 app = App()
 env = Environment(account=os.environ["CDK_DEFAULT_ACCOUNT"], region="us-west-2")
-WebappStack(
-    app,
-    "PromptChaining-StreamlitWebapp",
-    env=env,
-    parent_domain="tk.com",
-)
+#WebappStack(
+#    app,
+#    "PromptChaining-StreamlitWebapp",
+#    env=env,
+#    parent_domain="tk.com",
+#)
 BlogPostStack(
     app,
     "PromptChaining-BlogPostDemo",
